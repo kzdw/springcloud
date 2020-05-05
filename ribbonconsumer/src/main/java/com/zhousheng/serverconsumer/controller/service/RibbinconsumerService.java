@@ -12,7 +12,7 @@ public class RibbinconsumerService {
 
     @HystrixCommand(fallbackMethod = "findRibbonConsumerFallback")
     public String findRibbonConsumer() {
-        String studentQuery = template.getForObject("http://serverprovider1/findStudent", String.class);
+        String studentQuery = template.getForObject("http://serverprovider/findStudent", String.class);
         return studentQuery;
     }
     public String findRibbonConsumerFallback() {
