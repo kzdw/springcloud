@@ -1,0 +1,13 @@
+# in addition, more rabbitmq config info shall be configured by Class  com.zhousheng.rabbitmqmessagesender.rabbitmqConfig.RabbitmqConfig
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: henry
+    password: henry
+    virtual-host: testhost
+
+server:
+  port: 9013
+
+

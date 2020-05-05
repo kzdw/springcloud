@@ -1,0 +1,9 @@
+#如果读取配置中心配置成功会覆盖这个端口，放在这里只是做测试用
+server:
+  port: 9100
+spring:
+  application:
+    name: config-cloud-client
+
+
+
