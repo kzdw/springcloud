@@ -11,9 +11,9 @@ public class Controller {
     @Autowired
     RabbitTemplate rabbitTemplate;
 
-    @GetMapping(value = "/findStudent")
+    @GetMapping(value = "/sender")
     @ResponseBody
     public void sendMessage() {
-        rabbitTemplate.convertAndSend( "directExchange","studentInfo", "this is a message");
+        rabbitTemplate.convertAndSend( "directExchangeLily","studentInfoLily", "this is a message");
     }
 }

@@ -19,12 +19,10 @@ public class ConnectionUtil {
         connectionFactory.setHost("127.0.0.1");
         //设置端口号，连接用户名，虚拟地址等
         connectionFactory.setPort(5672);
-        connectionFactory.setUsername("henry");
-        connectionFactory.setPassword("henry");
-        connectionFactory.setVirtualHost("testhost");
+        connectionFactory.setUsername("lily");
+        connectionFactory.setPassword("lily");
+        connectionFactory.setVirtualHost("testhostlily");
         return connectionFactory.newConnection();
     }
-
-
 
 }

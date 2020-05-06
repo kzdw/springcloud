@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class RabbitmqHandler {
 
-    @RabbitListener(queues = "testQueue")
+    @RabbitListener(queues = "testQueueLily")
     public void get(String message) throws Exception{
         System.out.println(message);
     }

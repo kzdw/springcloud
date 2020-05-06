@@ -19,8 +19,8 @@ public class RabbitmqMessageSenderApplication {
 //        connectionFactory.setHost("127.0.0.1");
 //        //设置端口号，连接用户名，虚拟地址等
 //        connectionFactory.setPort(5672);
-//        connectionFactory.setUsername("henry");
-//        connectionFactory.setPassword("henry");
+//        connectionFactory.setUsername("guest");
+//        connectionFactory.setPassword("guest");
 //        connectionFactory.setVirtualHost("testhost");
 //        return connectionFactory;
 //    }
