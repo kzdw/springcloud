@@ -24,7 +24,7 @@
 		<module>zuul</module>
 		<module>hystrix-dashboard</module>
 		<module>config-cloud</module>
-		<module>rabbitmq-test</module>
+		<module>rabbitmq-demo</module>
 		<module>rabbitmq-message-sender</module>
 		<module>rabbitmq-handler</module>
         <module>zipkin-server</module>
