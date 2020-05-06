@@ -27,7 +27,7 @@
 		<module>rabbitmq-test</module>
 		<module>rabbitmq-message-sender</module>
 		<module>rabbitmq-handler</module>
-        <module>zipkinserverdemo</module>
+        <module>zipkin-server</module>
     </modules>
 	<properties>
 		<java.version>1.8</java.version>
@@ -51,6 +51,7 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>

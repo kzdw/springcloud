@@ -4,4 +4,4 @@ spring:
       name: test-config
       profile: dev
       label: master
-      uri: http://localhost:9009/
+      uri: http://localhost:9010/
